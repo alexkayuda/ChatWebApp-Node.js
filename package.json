@@ -1,0 +1,20 @@
+{
+  "name": "wuzzzup",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.11.3",
+    "npm": "6.4.1"
+  },
+  "description": "Simple Chat Web App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "Alexander Kayuda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
+}
